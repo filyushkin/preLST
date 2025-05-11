@@ -1,10 +1,35 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Список каналов</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
+  <div class="container mt-5">
+    <h1 class="mb-4">Список каналов</h1>
+    <a href="add.html" class="btn btn-primary mb-3">Добавить канал</a>
+    <table class="table table-bordered">
+      <thead class="table-light">
+        <tr>
+          <th>Псевдоним канала</th>
+          <th>ID канала (YouTube)</th>
+          <th>Действия</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Пример строки таблицы -->
+        <tr>
+          <td>Tech Insider</td>
+          <td>UC1234567890</td>
+          <td>
+            <button class="btn btn-danger btn-sm">Удалить</button>
+          </td>
+        </tr>
+        <!-- Дополнительные строки можно добавлять здесь -->
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>
